@@ -1,0 +1,56 @@
+# .gitignore
+# Ignore virtual environment
+venv/   
+# Ignore Python bytecode files
+__pycache__/        
+*.pyc
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore data files
+data/   
+# Ignore model files
+models/
+# Ignore logs
+logs/   
+# Ignore IDE files
+.vscode/    
+.idea/ 
+# Ignore system files
+.DS_Store
+Thumbs.db
+# Ignore coverage reports
+coverage/
+# Ignore test results
+test_results/
+# Ignore build files
+build/
+dist/
+# Ignore package files
+*.egg-info/
+# Ignore Docker files
+docker-compose.override.yml
+# Ignore other configuration files
+config.yaml
+config.json
+# Ignore secrets
+secrets/
+# Ignore any other files that should not be committed
+*.env
+*.key
+*.pem
+*.crt
+*.pfx
+*.jks
+*.p12
+*.bak
+*.swp
+*.log
+*.tmp
+*.backup
+*.old
+*.orig
+*.rej
+*.swo
+*.swn
+*.DS_Store
+Thumbs.db

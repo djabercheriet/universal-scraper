@@ -6,7 +6,7 @@ A powerful, production-ready web scraping engine designed to extract product dat
 
 ## ✨ Features
 
-* 🔍 **Universal scraping engine**
+* 🔍 **Universal scraping engine V1**
 
   * Works on most WooCommerce, Shopify, and standard e-commerce sites
 * ⚡ **Hybrid extraction system**
@@ -98,13 +98,15 @@ pandas
 ## 🚀 Usage
 
 ```bash
-python scraper.py
+python go-get.py
 ```
 
 ### You will be prompted for:
 
-* 🔗 Category URL
-* 🔢 Maximum number of products (0 = all)
+* 🔗 Category URL:
+* 🔢 Start page (Default 1) (0 = all):
+* 🔢 Number of pages:
+* 🔢 Maximum number of products (0 = no limit):
 
 ---
 
