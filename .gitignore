@@ -35,6 +35,7 @@ config.json
 # Ignore secrets
 secrets/
 # Ignore any other files that should not be committed
+products.csv
 *.env
 *.key
 *.pem
