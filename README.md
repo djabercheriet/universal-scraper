@@ -70,7 +70,7 @@ The scraper exports a `products.csv` file with the following structure:
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/universal-scraper.git
+git clone https://github.com/djabercheriet/universal-scraper.git
 cd universal-scraper
 
 # Create virtual environment
